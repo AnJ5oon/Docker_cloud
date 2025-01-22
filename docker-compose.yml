@@ -65,5 +65,3 @@ services:
       - all_dir_network
     depends_on:
       - frontend
-
-      #dd
