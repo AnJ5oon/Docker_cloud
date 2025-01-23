@@ -52,6 +52,10 @@ jobs:
                 docker build -t dkswogns010/demo_frontend ./frontend
                 docker push dkswogns010/demo_frontend             
             # eC2 서버로 필요 파일 업로드(YML, nginx/*.conf)
+            # Ec2 생성 -> 탄력적 ip 연결 > 활성화 이후
+            # EC2 접속
+            # docker-compose.yml, ./nginx/default.conf 업로드
+            #
 
     #deploy:
         # 도커 컴포즈 진행
